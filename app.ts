@@ -62,7 +62,7 @@ const initButton = (
   button.textContent = `${index}`;
   button.onclick = onclick;
   button.setAttribute("data-row", `${index}`);
-  button.className = completed ? "comleted" : "";
+  button.className = completed ? "completed" : "";
   return button;
 };
 
